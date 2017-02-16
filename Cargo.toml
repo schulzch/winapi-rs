@@ -163,6 +163,7 @@ headers = ["headers-shared", "headers-um", "headers-vc", "headers-winrt"]
     "um-spapidef",
     "um-strmif",
     "um-unknwnbase",
+    "um-uxtheme",
     "um-vsserror",
     "um-winbase",
     "um-wincodec",
@@ -240,6 +241,7 @@ headers = ["headers-shared", "headers-um", "headers-vc", "headers-winrt"]
 "um-spapidef" = ["shared-minwindef", "um-winnt"]
 "um-strmif" = ["um-winnt"]
 "um-unknwnbase" = ["shared-guiddef", "shared-minwindef", "um-winnt"]
+"um-uxtheme" = ["shared-minwindef"]
 "um-vsserror" = ["um-winnt"]
 "um-winbase" = ["shared-basetsd", "shared-guiddef", "shared-minwindef", "um-cfgmgr32", "um-winnt"]
 "um-wincodec" = ["shared-basetsd", "shared-guiddef", "shared-minwindef", "um-dcommon", "um-unknwnbase", "um-winnt"]

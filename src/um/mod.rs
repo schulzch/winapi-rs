@@ -68,6 +68,7 @@ pub mod gl;
 #[cfg(feature = "um-spapidef")] pub mod spapidef;
 #[cfg(feature = "um-strmif")] pub mod strmif;
 #[cfg(feature = "um-unknwnbase")] pub mod unknwnbase;
+#[cfg(feature = "um-uxtheme")] pub mod uxtheme;
 #[cfg(feature = "um-vsserror")] pub mod vsserror;
 #[cfg(feature = "um-winbase")] pub mod winbase;
 #[cfg(feature = "um-wincodec")] pub mod wincodec;

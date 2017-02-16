@@ -11,7 +11,7 @@ extern "system" {
     pub fn DwmEnableBlurBehindWindow(hWnd: HWND, pBlurBehind: *const DWM_BLURBEHIND) -> HRESULT;
     // pub fn DwmEnableComposition();
     // pub fn DwmEnableMMCSS();
-    // pub fn DwmExtendFrameIntoClientArea();
+    pub fn DwmExtendFrameIntoClientArea(hWnd: HWND, pMarInset: *const MARGINS) -> HRESULT;
     // pub fn DwmFlush();
     // pub fn DwmGetColorizationColor();
     // pub fn DwmGetCompositionTimingInfo();
